@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// °£´ÜÇÑ enum Á¤ÀÇ
+// ê°„ë‹¨í•œ enum ì •ì˜
 enum Days {
     SUNDAY,    // 0
     MONDAY,    // 1
@@ -15,11 +15,11 @@ int main() {
     
     enum Days today = FRIDAY;
 
-    if (today == WEDNESDAY) {
-        printf("¿À´ÃÀº ¼ö¿äÀÏÀÔ´Ï´Ù.\n");
+    if (today == FRIDAY) {
+        printf("ì˜¤ëŠ˜ì€ ê¸ˆìš”ì¼ì…ë‹ˆë‹¤.\n"); // todayê°€ FRIDAYì´ë©´ ifë¬¸ìœ¼ë¡œ ë‚˜ì˜¤ê³  ì•„ë‹ˆë©´ elseë¡œ ë‚˜ì˜¨ë‹¤.
     }
     else {
-        printf("¿À´ÃÀº ´Ù¸¥ ¿äÀÏÀÔ´Ï´Ù.\n");
+        printf("ì˜¤ëŠ˜ì€ ë‹¤ë¥¸ ìš”ì¼ì…ë‹ˆë‹¤.\n");
     }
 
     return 0;
